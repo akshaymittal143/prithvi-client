@@ -390,6 +390,9 @@ a:active {
 }
 .animated .logo-1 {
     display: none!important;
+    margin-top: -1px;
+    max-width: none;
+    width: 108px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
@@ -657,6 +660,14 @@ background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#8ec6
 #service .thumbnail img {
     padding-bottom: 30px;
 }
+
+.logo-2, .logo-1 img{
+    margin-top: -1px;
+    max-width: none;
+    width: 108px;
+}
+
+
 #service .thumbnail .img-adjust {
     margin-top: 10px;
     position: relative;
